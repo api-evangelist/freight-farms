@@ -1,0 +1,21 @@
+{
+  "repo": "freight-farms",
+  "feeds": [
+    {
+      "source": "https://www.freightfarms.com/home?format=rss",
+      "feed_url": "https://www.freightfarms.com/home?format=rss",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://freightfarms.com/",
+      "feed_url": "https://www.freightfarms.com/home?format=rss",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

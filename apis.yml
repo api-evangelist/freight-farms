@@ -1,19 +1,48 @@
 aid: freight-farms
 name: Freight Farms
-description: Freight Farms is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Freight Farms is a Boston-based vertical farming company that builds the Greenery container
+  farm, a commercial-scale, modular, hydroponic farm assembled inside a shipping container so
+  growers can produce hyper-local produce 365 days a year in any climate. Its Farmhand software
+  platform provides remote farm control, farm data analytics and insights, crop planning, and
+  pre-set growing recipes, backed by certified training, onboarding, logistics, and technical
+  support. The company reports 800+ farms across 50 U.S. states and 3 territories and 2,100+
+  farmers in 42 countries. Freight Farms currently publishes no public developer API, portal, or
+  OpenAPI surface; this API Evangelist profile captures its public web, brand, and legal
+  properties plus a domain-security probe while a programmatic surface is monitored for.
 url: https://raw.githubusercontent.com/api-evangelist/freight-farms/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-public-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static1.squarespace.com/static/54ec7e4fe4b0866fef062b8b/t/69f391f8319a0c25a7126301/1777570296467/FREIGHT+FARMS_Logo-RGB-BLACK.png?format=1500w
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Vertical Farming
+- Agriculture
+- AgTech
+- Hydroponics
+- Controlled Environment Agriculture
+- Container Farming
+- Farm Automation
+- IoT
+- Food Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/freight-farms-domain-security.yml
 - type: Website
   url: https://freightfarms.com/
+- type: Blog
+  url: https://freightfarms.com/blog-home
+- type: Support
+  url: https://freightfarms.com/support
+- type: HelpCenter
+  url: https://freightfarms.com/faq
+- type: TermsOfService
+  url: https://www.freightfarms.com/terms-conditions-of-sale-growcer
+- type: PrivacyPolicy
+  url: https://www.thegrowcer.ca/privacy-policy
+- type: About
+  url: https://freightfarms.com/company
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
