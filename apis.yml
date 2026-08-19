@@ -29,7 +29,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://static1.squarespace.com/static/54ec7e4fe4b0866fef062b8b/t/69f391f8319a0c25a7126301/1777570296467/FREIGHT+FARMS_Logo-RGB-BLACK.png?format=1500w
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
